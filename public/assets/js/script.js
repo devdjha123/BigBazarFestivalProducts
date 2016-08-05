@@ -9,7 +9,7 @@ $(function () {
 
     // Example:
     // filters = {
-    // 		"manufacturer" = ["Apple","Sony"],
+    // 		"categories" = ["Apple","Sony"],
     //		"storage" = [16]
     //	}
         filters = {};
@@ -20,6 +20,7 @@ $(function () {
     //	Checkbox filtering
 
     var checkboxes = $('.all-products input[type=checkbox]');
+    var range = $('');
 
     checkboxes.click(function () {
 
@@ -105,7 +106,7 @@ $(function () {
         // Call a function to create HTML for all the products.
         generateAllProductsHTML(products);
 
-        // Manually trigger a hashchange to start the app.
+        // Manually trigger a hashchange to start the public.
         $(window).trigger('hashchange');
     });
 
@@ -266,7 +267,7 @@ $(function () {
     function renderFilterResults(filters, products){
 
         // This array contains all the possible filter criteria.
-        var criteria = ['manufacturer','storage','os','camera'],
+        var criteria = ['categories','storage','os','camera'],
             results = [],
             isFiltered = false;
 
@@ -319,7 +320,7 @@ $(function () {
                     });
 
                     // Here we can make the checkboxes representing the filters true,
-                    // keeping the app up to date.
+                    // keeping the public up to date.
                     if(c && filter){
                         $('input[name='+c+'][value='+filter+']').prop('checked',true);
                     }

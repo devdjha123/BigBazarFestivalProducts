@@ -4,7 +4,7 @@
     "name": "Sony Xperia Z3",
     "price": 899,
     "specs": {
-      "manufacturer": "Sony",
+      "categories": "electronics",
       "storage": 16,
       "os": "Android",
       "camera": 15
@@ -21,7 +21,7 @@
     "name": "Iphone 6",
     "price": 899,
     "specs": {
-      "manufacturer": "Apple",
+      "categories": "chocolates",
       "storage": 16,
       "os": "iOS",
       "camera": 8
@@ -38,7 +38,7 @@
     "name": "HTC One M8",
     "price": 899,
     "specs": {
-      "manufacturer": "HTC",
+      "categories": "HTC",
       "storage": 32,
       "os": "Android",
       "camera": 5
@@ -55,7 +55,7 @@
     "name": "Galaxy Alpha",
     "price": 899,
     "specs": {
-      "manufacturer": "Samsung",
+      "categories": "Samsung",
       "storage": 32,
       "os": "Android",
       "camera": 12
@@ -72,7 +72,7 @@
     "name": "Nokia Lumia",
     "price": 450,
     "specs": {
-      "manufacturer": "Nokia",
+      "categories": "Nokia",
       "storage": 16,
       "os": "Windows",
       "camera": 5
@@ -89,7 +89,7 @@
     "name": "Zte Nubia",
     "price": 399,
     "specs": {
-      "manufacturer": "ZTE",
+      "categories": "ZTE",
       "storage": 32,
       "os": "Android",
       "camera": 12
@@ -106,7 +106,7 @@
     "name": "Samsung Galaxy S5",
     "price": 399,
     "specs": {
-      "manufacturer": "Samsung",
+      "categories": "Samsung",
       "storage": 16,
       "os": "Android",
       "camera": 15
@@ -123,7 +123,7 @@
     "name": "Iphone 5S",
     "price": 399,
     "specs": {
-      "manufacturer": "Apple",
+      "categories": "Apple",
       "storage": 16,
       "os": "iOS",
       "camera": 8
