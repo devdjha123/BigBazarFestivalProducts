@@ -9,130 +9,130 @@
       "os": "Android",
       "camera": 15
     },
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique ipsum in efficitur pharetra. Maecenas luctus ante in neque maximus, sed viverra sem posuere. Vestibulum lectus nisi, laoreet vel suscipit nec, feugiat at odio. Etiam eget tellus arcu.",
+    "description": "CADBURY CELEBRATION 141.90g.",
     "rating": 4,
     "image": {
-      "small": "assets/images/big2.png",
-      "large": "assets/images/Cel AYR Rs50-2016 May-Cool.jpg"
+      "small": "assets/images/1a.jpg",
+      "large": "assets/images/1b.jpg"
     }
   },
   {
     "id": 2,
-    "name": "Iphone 6",
-    "price": 4000,
+    "name": "KORYO STEAM IRONS",
+    "price": 9999,
     "specs": {
       "categories": "chocolate",
       "storage": 16,
       "os": "iOS",
       "camera": 8
     },
-    "description": "m in efficitur pharetra. Maecenas luctus ante in neque maximus, sed viverra sem posuere. Vestibulum lectus nisi, laoreet vel suscipit nec, feugiat at odio. Etiam eget tellus arcu.",
+    "description": "KORYO KSW 19X STEAM IRONS",
     "rating": 4,
     "image": {
-      "small": "assets/images/iphone6.jpg",
-      "large": "assets/images/iphone6-large.jpg"
+      "small": "assets/images/e1a.jpg",
+      "large": "assets/images/e1b.jpg"
     }
   },
   {
     "id": 3,
-    "name": "HTC One M8",
-    "price": 6000,
+    "name": "CADBURY CELEBRATION",
+    "price": 160,
     "specs": {
       "categories": "chocolate",
       "storage": 32,
       "os": "Android",
       "camera": 5
     },
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique ipsum in efficitur pharetra. Maecenas luctus ante in neque maximus, sed viverra sem posuere. Vestibulum lectus nisi, laoreet vel suscipit nec, feugiat at odio. Etiam eget tellus arcu.",
+    "description": "CADBURY CELEBRATION 199g",
     "rating": 4,
     "image": {
-      "small": "assets/images/htc-one.jpg",
-      "large": "assets/images/htc-one-large.jpg"
+      "small": "assets/images/2a.jpg",
+      "large": "assets/images/2b.jpg"
     }
   },
   {
     "id": 4,
-    "name": "Galaxy Alpha",
-    "price": 11000,
+    "name": "EasyPop Toaster",
+    "price": 899,
     "specs": {
       "categories": "chocolate",
       "storage": 32,
       "os": "Android",
       "camera": 12
     },
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique ipsum in efficitur pharetra. Maecenas luctus ante in neque maximus, sed viverra sem posuere. Vestibulum lectus nisi, laoreet vel suscipit nec, feugiat at odio. Etiam eget tellus arcu.",
+    "description": "Bajaj EasyPop Toaster",
     "rating": 4,
     "image": {
-      "small": "assets/images/galaxy-alpha.jpg",
-      "large": "assets/images/galaxy-alpha-large.jpg"
+      "small": "assets/images/e3a.jpg",
+      "large": "assets/images/e2b.jpg"
     }
   },
   {
     "id": 5,
-    "name": "Nokia Lumia",
-    "price": 10000,
+    "name": "KORYO MICROWAVE OVEN",
+    "price": 4990,
     "specs": {
       "categories": "electronics",
       "storage": 16,
       "os": "Windows",
       "camera": 5
     },
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique ipsum in efficitur pharetra. Maecenas luctus ante in neque maximus, sed viverra sem posuere. Vestibulum lectus nisi, laoreet vel suscipit nec, feugiat at odio. Etiam eget tellus arcu.",
+    "description": "20l With 3 Grill Combi Modes ,   9 Power Levels ,Defrost Function",
     "rating": 4,
     "image": {
-      "small": "assets/images/nokia-lumia.jpg",
-      "large": "assets/images/nokia-lumia-large.jpg"
+      "small": "assets/images/3a.jpg",
+      "large": "assets/images/3b.jpg"
     }
   },
   {
     "id": 6,
-    "name": "Zte Nubia",
-    "price": 5999,
+    "name": "CADBURY CELEBRATION",
+    "price": 399,
     "specs": {
       "categories": "electronics",
       "storage": 32,
       "os": "Android",
       "camera": 12
     },
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique ipsum in efficitur pharetra. Maecenas luctus ante in neque maximus, sed viverra sem posuere. Vestibulum lectus nisi, laoreet vel suscipit nec, feugiat at odio. Etiam eget tellus arcu.",
+    "description": "CADBURY CELEBRATION 264g Rich Dry Fruit ",
     "rating": 4,
     "image": {
-      "small": "assets/images/zte-nubia.jpg",
-      "large": "assets/images/zte-nubia-large.jpg"
+      "small": "assets/images/e4a.jpg",
+      "large": "assets/images/e3bc.jpg"
     }
   },
   {
     "id": 7,
-    "name": "Samsung Galaxy S5",
-    "price": 4999,
+    "name": "CADBURY CELEBRATION",
+    "price": 250,
     "specs": {
       "categories": "electronics",
       "storage": 16,
       "os": "Android",
       "camera": 15
     },
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique ipsum in efficitur pharetra. Maecenas luctus ante in neque maximus, sed viverra sem posuere. Vestibulum lectus nisi, laoreet vel suscipit nec, feugiat at odio. Etiam eget tellus arcu.",
+    "description": "CADBURY CELEBRATION 120g Rich Dry Fruit",
     "rating": 4,
     "image": {
-      "small": "assets/images/galaxy-s5.jpg",
-      "large": "assets/images/galaxy-s5-large.jpg"
+      "small": "assets/images/6a.jpg",
+      "large": "assets/images/6b.jpg"
     }
   },
   {
     "id": 8,
-    "name": "Iphone 5S",
-    "price": 3999,
+    "name": "BAJAJ MASTERCHEF  ",
+    "price": 6649,
     "specs": {
       "categories": "electronics",
       "storage": 16,
       "os": "iOS",
       "camera": 8
     },
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique ipsum in efficitur pharetra. Maecenas luctus ante in neque maximus, sed viverra sem posuere. Vestibulum lectus nisi, laoreet vel suscipit nec, feugiat at odio. Etiam eget tellus arcu.",
+    "description": "BAJAJ MASTERCHEF 3.0 FOOD PROCESSOR ",
     "rating": 4,
     "image": {
-      "small": "assets/images/iphone5s.jpg",
-      "large": "assets/images/iphone5s-large.jpg"
+      "small": "assets/images/5a.jpg",
+      "large": "assets/images/5b.jpg"
     }
   }
 ]
