@@ -20,7 +20,7 @@ $(function () {
     //	Checkbox filtering
 
     var checkboxes = $('.all-products input[type=checkbox]');
-    var search = $('.form-wrapper input[type=submit]');
+    var search = $('.col-md-2 input[type=submit]');
 
     checkboxes.click(function () {
 
@@ -83,7 +83,7 @@ $(function () {
             }
 
             //	Push values into the chosen filter array
-            filters[specName].push(that.val());
+            filters[specName].push(x);
 
             // Change the url hash;
             createQueryHash(filters);
@@ -421,7 +421,8 @@ $(function () {
 
                     // Here we can make the checkboxes representing the filters true,
                     // keeping the public up to date.
-                    if (c && filter) {
+                    if (c !='name' && filter) {
+
                         $('input[name=' + c + '][value=' + filter + ']').prop('checked', true);
                     }
                 });
