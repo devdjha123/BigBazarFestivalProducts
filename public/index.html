@@ -9,47 +9,104 @@
 
   <link href="http://fonts.googleapis.com/css?family=Open+Sans:400" rel="stylesheet">
   <link href="assets/css/styles.css" rel="stylesheet">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+
 </head>
 
 <body>
+<div class="container-fluid">
+  <!-- Brand and toggle get grouped for better mobile display -->
+  <div class="col-md-12">
+    <div class="row">
+      <div class="col-md-2"> <img src="assets/images/bigbazaar_logo.jpg"></div>
+      <div class="col-md-3"></div>
+      <div class="col-md-2"><form class="form-wrapper">
+        <input type="text" id="search" placeholder="Search for..." name="name" required>
+        <input type="submit" value="go" id="submit" name="name">
+      </form></div>
+      <div class="col-md-3"></div>
+      <div class="col-md-2">  <div style="position:absolute;right:40px;top:0;" class="top-header-right-social">
+        <ul class="rt">
+          <li><a class="face" href="https://www.facebook.com/BigBazaar" target="_blank"><span> <img src="assets/images/1470Facebook.png"width="40"></span></a></li>
+          <li><a class="twit" href="https://twitter.com/BigBazaar" target="_blank"><span><img src="assets/images/twitter-logo_318-40459.jpg"width="40"> </span></a></li>
+          <!-- <li><a class="pin" href="https://www.youtube.com/channel/UCrk-0IWsWKtQbGZ4VnrTiBw" target="_blank"><span> </span></a></li> -->
+        </ul>
+      </div></div>
+    </div>
+
+  </div>
+
+
+  <!-- Collect the nav links, forms, and other content for toggling -->
+
+</div>
 
 <div class="main-content">
+  <!--<div class="banner"> <img src="assets/images/header.png"></div>-->
+  <div class="container">
+    <div class="banner"> <img src="assets/images/header.png"></div>
 
+    <h1 id="phead"><ul>OUR PRODUCTS</ul></h1>
+    <hr>
+    <div class="row">
+      &nbsp;
+    </div>
+    <div class="row">
+      &nbsp;
+    </div>
+    <div class="row">
+      &nbsp;
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12"width="100%"height="500px"style="color:#122A4E;">
+
+
+    </div>
+  </div>
   <div class="all-products page">
 
     <div class="filters">
       <form>
 
         <div class="filter-criteria">
-          <span>Manufacturer</span>
-          <label><input type="checkbox" name="manufacturer" value="apple">Apple</label>
-          <label><input type="checkbox" name="manufacturer" value="samsung">Samsung</label>
-          <label><input type="checkbox" name="manufacturer" value="htc">HTC</label>
-          <label><input type="checkbox" name="manufacturer" value="nokia">Nokia</label>
-          <label><input type="checkbox" name="manufacturer" value="zte">ZTE</label>
-          <label><input type="checkbox" name="manufacturer" value="sony">Sony</label>
+          <span>Category</span>
+          <label><input type="checkbox" name="categories" value="chocolate">Chocolate</label>
+          <label><input type="checkbox" name="categories" value="electronics">Electronics</label>
+          <!-- <label><input type="checkbox" name="categories" value="nokia">Nokia</label>
+          <label><input type="checkbox" name="categories" value="zte">ZTE</label>
+          <label><input type="checkbox" name="categories" value="sony">Sony</label>-->
+        </div>
+        <div class="filter-criteria">
+          <span>Price</span>
+          <label><input type="checkbox" value="1000" name="price">0-1000</label>
+          <label><input type="checkbox" value="3000" name="price">1000-3000</label>
+          <label><input type="checkbox" value="6000" name="price">3000-6000</label>
+          <label><input type="checkbox" value="10000" name="price">6000-10000</label>
+          <label><input type="checkbox" value="10001" name="price">10000 & more</label>
         </div>
 
-        <div class="filter-criteria">
-          <span>Screen Size</span>
-          <label><input type="checkbox" value="16" name="storage">16 GB</label>
-          <label><input type="checkbox" value="32" name="storage">32 GB</label>
-        </div>
+        <!-- <div class="filter-criteria">
+           <span>Screen Size</span>
+           <label><input type="checkbox" value="16" name="storage">16 GB</label>
+           <label><input type="checkbox" value="32" name="storage">32 GB</label>
+         </div>-->
 
-        <div class="filter-criteria">
+        <!--<div class="filter-criteria">
           <span>OS</span>
           <label><input type="checkbox" value="android" name="os">Android</label>
           <label><input type="checkbox" value="ios" name="os">iOS</label>
           <label><input type="checkbox" value="windows" name="os">Windows</label>
-        </div>
+        </div>--->
 
-        <div class="filter-criteria">
-          <span>Camera</span>
-          <label><input type="checkbox" value="5" name="camera">5 Mpx</label>
-          <label><input type="checkbox" value="8" name="camera">8 Mpx</label>
-          <label><input type="checkbox" value="12" name="camera">12 Mpx</label>
-          <label><input type="checkbox" value="15" name="camera">15 Mpx</label>
-        </div>
+        <!-- <div class="filter-criteria">
+           <span>Camera</span>
+           <label><input type="checkbox" value="5" name="camera">5 Mpx</label>
+           <label><input type="checkbox" value="8" name="camera">8 Mpx</label>
+           <label><input type="checkbox" value="12" name="camera">12 Mpx</label>
+           <label><input type="checkbox" value="15" name="camera">15 Mpx</label>
+         </div>-->
 
         <button>Clear filters</button>
 
@@ -61,42 +118,102 @@
       <script id="products-template" type="x-handlebars-template">​
       {{#each this}}
       <li data-index="{{id}}">
-        <a href="#" class="product-photo"><img src="{{image.small}}" height="130" alt="{{name}}"/></a>
-        <h2><a href="#"> {{name}} </a></h2>
-        <ul class="product-description">
-          <li><span>Manufacturer: </span>{{specs.manufacturer}}</li>
-          <li><span>Storage: </span>{{specs.storage}} GB</li>
-          <li><span>OS: </span>{{specs.os}}</li>
-          <li><span>Camera: </span>{{specs.camera}} Mpx</li>
-        </ul>
-        <button>Buy Now!</button>
-        <p class="product-price">{{price}}$</p>
-        <div class="highlight"></div>
+        <a href="#" class="product-photo"><img src="{{image.small}}" height="180" alt="{{name}}"/></a>
+        <!--<h2><a href="#"> {{name}} </a></h2>-->
+        <!-- <ul class="product-description">
+           <li><span>categories: </span>{{specs.categories}}</li>
+           <li><span>Storage: </span>{{specs.storage}} GB</li>
+           <li><span>OS: </span>{{specs.os}}</li>
+           <li><span>Camera: </span>{{specs.camera}} Mpx</li>
+         </ul>-->
+        <!--<button>Buy Now!</button>-->
+
+        <div id ="prodp">
+          <h2 ><a href="#"> {{name}} </a></h2>
+          <p class="product-price">{{price}}$</p>
+
+          <div class="highlight"></div></div>
+        <p id="proddic">{{description}}</p>
       </li>
       {{/each}}
       </script> 
     </ul>
 
+    <div class="footer">
+
+      <div class="col-md-12">
+        <div class="row">
+
+          <div class="col-md-2"> </div>
+
+          <div class="col-md-10"><hr style="color: rgb(18, 42, 78);height:10px;">
+            <div class="col-md-12">
+              <div class="row">
+                <div class="col-md-2"> <div style="margin-top:10px; margin-bottom:10px;"><strong>Big Bazaar</strong></div>
+                  <div><a href="http://www.futureretail.co.in/about-us/overview-retail.html" target="_blank" style="color:#122A4E;">Our Story</a></div>
+                  <div><a href="http://www.bigbazaar.com/sitemap.php" style="color:#122A4E;">Site Map</a></div>
+                </div>
+                <div class="col-md-2">
+                  <div style="margin-top:10px; margin-bottom:10px;"><strong>Events</strong></div>
+                  <div><a href="http://www.bigbazaar.com/student-travel-luggage/" style="color:#122A4E;">Student Travel Luggage</a></div>
+                </div>
+
+                <div class="col-md-2">  <div style="margin-top:10px; margin-bottom:10px;"><strong>Locate Us</strong></div>
+                  <div><a href="http://www.bigbazaar.com/store.php" style="color:#122A4E;">Store Locator</a></div>
+                  <div><a href="http://www.bigbazaar.com/contact-us/" style="color:#122A4E;">Contact Us</a></div>
+                </div>
+                <div class="col-md-2">
+                  <div style="margin-top:10px; margin-bottom:10px;"><strong>Policies</strong></div>
+                  <div><a href="http://www.futureretail.co.in/legal.html" style="color:#122A4E;" target="_blank">Legal</a></div>
+                </div>
+                <div class="col-md-2">
+                  <div style="margin-top:10px; margin-bottom:10px;"><strong>Policies</strong></div>
+                  <div><a href="http://www.futureretail.co.in/legal.html" style="color:#122A4E;" target="_blank">Legal</a></div>
+                </div>
+
+
+
+              </div></div>
+          </div>
+
+        </div>
+
+
+
+      </div>
+
+      <div class="col-md-2">
+        <ul class="ftt">
+          <li><a ></a></li>
+          <li><a></a></li>
+          <!-- <li><a class="pin" href="https://www.youtube.com/channel/UCrk-0IWsWKtQbGZ4VnrTiBw" target="_blank"><span> </span></a></li> -->
+        </ul>
+      </div></div>
   </div>
 
 
-  <div class="single-product page">
+</div>
 
-    <div class="overlay"></div>
+</div>
 
-    <div class="preview-large">
-      <h3>Single product view</h3>
-      <img src=""/>
-      <p></p>
 
-      <span class="close">×</span>
-    </div>
+<div class="single-product page">
 
+  <div class="overlay"></div>
+
+  <div class="preview-large">
+    <h3>Single product view</h3>
+    <img src=""/>
+    <p></p>
+
+    <span class="close">×</span>
   </div>
 
-  <div class="error page">
-    <h3>Sorry, something went wrong :(</h3>
-  </div>
+</div>
+
+<div class="error page">
+  <h3>Sorry, something went wrong :(</h3>
+</div>
 
 </div>
 
