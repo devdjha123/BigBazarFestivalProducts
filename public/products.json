@@ -9,7 +9,7 @@
       "os": "Android",
       "camera": 15
     },
-    "description": "CADBURY CELEBRATION 141.90g.",
+    "description": "CADBURY CELEBRATION 75g.",
     "rating": 4,
     "image": {
       "small": "assets/images/1a.jpg",
@@ -55,7 +55,7 @@
     "name": "EasyPop Toaster",
     "price": 899,
     "specs": {
-      "categories": "chocolate",
+      "categories": "electronics",
       "storage": 32,
       "os": "Android",
       "camera": 12
@@ -89,7 +89,7 @@
     "name": "CADBURY CELEBRATION",
     "price": 399,
     "specs": {
-      "categories": "electronics",
+      "categories": "chocolate",
       "storage": 32,
       "os": "Android",
       "camera": 12
@@ -106,7 +106,7 @@
     "name": "CADBURY CELEBRATION",
     "price": 250,
     "specs": {
-      "categories": "electronics",
+      "categories": "chocolate",
       "storage": 16,
       "os": "Android",
       "camera": 15
