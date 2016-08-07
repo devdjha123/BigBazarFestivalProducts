@@ -68,7 +68,34 @@ header h2.tzine a{
 	}
 
 }
+@media only screen and (min-width : 1200px) {
+	.banner {
+		width: 100% !important;
+	}
+	body > div.main-content > div.container > div.banner > img {
+		width: 100% !important;
+	}
+	.products-list > li {
 
+		margin: 8px 76px 147px 4px;
+
+	}
+
+}
+@media only screen and (min-width : 1100px) {
+	.banner {
+		width: 100% !important;
+	}
+	body > div.main-content > div.container > div.banner > img {
+		width: 100% !important;
+	}
+	.products-list > li {
+
+		margin: 8px 76px 147px 4px;
+
+	}
+
+}
 /*-----------------
 	Main Content
 ------------------*/
@@ -114,7 +141,7 @@ header h2.tzine a{
 	position: fixed;
 	text-align: left;
 	color: #2B2E31;
-	top: 300px;
+	top: 250px;
 	opacity: 0;
 	pointer-events: none;
 }
@@ -288,7 +315,7 @@ header h2.tzine a{
 
 .products-list .product-price{
 	/*float: right;*/
-text-align: center;
+	text-align: center;
 
 	color: rgba(255, 255, 0, 0.88);
 	font-weight: bold;
@@ -437,10 +464,13 @@ div#prodp {
 p#proddic {
 	position: absolute;
 	margin-top: 31%;
-	color: #9191de;
-
-
+	color: #072d86;
+	font-size: 20px;
+	font-weight: 600;
+	font-family: Helvetica Neue;
 	text-align: center;
+
+
 }
 ul.rt {
 	display: block;
