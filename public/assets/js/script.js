@@ -407,7 +407,8 @@ $(function () {
                                 }
 
                             if (c == 'name') {
-                                if (item[c] == filter) {
+                                var itemName = item[c].toLowerCase();
+                                if (itemName.indexOf(filter.toLowerCase()) !== -1) {
                                     results.push(item);
                                     isFiltered = true;
                                 }
