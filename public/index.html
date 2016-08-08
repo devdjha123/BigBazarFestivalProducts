@@ -1,7 +1,7 @@
-<!DOCTYPE html>
-<html>
 
-<head lang="en">
+<!DOCTYPE html>
+<html lang="en">
+<head>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta charset="utf-8">
 
@@ -17,25 +17,23 @@
 <body>
 <div class="container-fluid">
   <!-- Brand and toggle get grouped for better mobile display -->
-  <div class="col-md-12">
-    <div class="row">
-      <div class="col-md-2"> <img src="assets/images/bigbazaar_logo.jpg"></div>
-      <div class="col-md-3"></div>
-      <div class="col-md-2">
-        <input type="text" id="search" placeholder="Search for..." name="name" required>
-        <input type="submit" value="go" id="submit" name="name">
-      </div>
-      <div class="col-md-3"></div>
-      <div class="col-md-2">  <div style="position:absolute;right:40px;top:0;" class="top-header-right-social">
-        <ul class="rt">
-          <li><a class="face" href="https://www.facebook.com/BigBazaar" target="_blank"><span> <img src="assets/images/1470Facebook.png"width="40"></span></a></li>
-          <li><a class="twit" href="https://twitter.com/BigBazaar" target="_blank"><span><img src="assets/images/twitter-logo_318-40459.jpg"width="40"> </span></a></li>
-          <!-- <li><a class="pin" href="https://www.youtube.com/channel/UCrk-0IWsWKtQbGZ4VnrTiBw" target="_blank"><span> </span></a></li> -->
-        </ul>
-      </div></div>
-    </div>
 
+  <div class="row" id="header">
+    <div class="col-md-2 col-sm-3 col-xs-3" ><a href="http://www.bigbazaar.com/"target="_blank"> <img id="logop" src="assets/images/Logo.png"></a></div>
+    <div class="col-md-8 col-sm-6 col-xs-6"> <input type="text" id="search" placeholder="Search Product" name="name" required style="color:#f16522;">
+      <input type="submit" value="search" id="submit" name="name"></div>
+
+
+    <div class="col-md-2 col-sm-3 col-xs-3">  <div style="position:absolute;right:40px;top:0;" class="top-header-right-social">
+      <ul class="rt">
+        <li><a class="face" href="https://www.facebook.com/BigBazaar" target="_blank"><span> <img src="assets/images/Facebook.png"width="100%"></span></a></li>
+        <li><a class="twit" href="https://twitter.com/BigBazaar" target="_blank"><span><img src="assets/images/Twitter.png"width="100%"> </span></a></li>
+        <!-- <li><a class="pin" href="https://www.youtube.com/channel/UCrk-0IWsWKtQbGZ4VnrTiBw" target="_blank"><span> </span></a></li> -->
+      </ul>
+    </div></div>
   </div>
+
+
 
 
   <!-- Collect the nav links, forms, and other content for toggling -->
@@ -44,11 +42,15 @@
 
 <div class="main-content">
   <!--<div class="banner"> <img src="assets/images/header.png"></div>-->
-  <div class="container">
-    <div class="banner"> <img src="assets/images/header.png"width="100%"></div>
+
+  <div class="banner"width="100%"> <img src="assets/images/header.png"width="100%">
 
     <h1 id="phead"><ul>OUR PRODUCTS</ul></h1>
-    <hr>
+    <center><hr id="pui"></center>
+    <div class="row">
+      &nbsp;
+    </div>
+
     <div class="row">
       &nbsp;
     </div>
@@ -130,71 +132,24 @@
 
         <div id ="prodp">
           <h2 ><a href="#"> {{name}} </a></h2>
-          <p class="product-price">{{price}}$</p>
+          <p class="product-price">Rs. {{price}}</p>
 
           <div class="highlight"></div></div>
-       <!-- <p id="proddic">{{description}}</p>-->
+        <!-- <p id="proddic">{{description}}</p>-->
       </li>
       {{/each}}
       </script> 
     </ul>
 
-    <div class="footer">
-
-      <div class="col-md-12">
-        <div class="row">
-
-          <div class="col-md-2"> </div>
-
-          <div class="col-md-10"><hr style="color: rgb(18, 42, 78);height:10px;">
-            <div class="col-md-12">
-              <div class="row">
-                <div class="col-md-2"> <div style="margin-top:10px; margin-bottom:10px;"><strong>Big Bazaar</strong></div>
-                  <div><a href="http://www.futureretail.co.in/about-us/overview-retail.html" target="_blank" style="color:#122A4E;">Our Story</a></div>
-                  <div><a href="http://www.bigbazaar.com/sitemap.php" style="color:#122A4E;">Site Map</a></div>
-                </div>
-                <div class="col-md-2">
-                  <div style="margin-top:10px; margin-bottom:10px;"><strong>Events</strong></div>
-                  <div><a href="http://www.bigbazaar.com/student-travel-luggage/" style="color:#122A4E;">Student Travel Luggage</a></div>
-                </div>
-
-                <div class="col-md-2">  <div style="margin-top:10px; margin-bottom:10px;"><strong>Locate Us</strong></div>
-                  <div><a href="http://www.bigbazaar.com/store.php" style="color:#122A4E;">Store Locator</a></div>
-                  <div><a href="http://www.bigbazaar.com/contact-us/" style="color:#122A4E;">Contact Us</a></div>
-                </div>
-                <div class="col-md-2">
-                  <div style="margin-top:10px; margin-bottom:10px;"><strong>Policies</strong></div>
-                  <div><a href="http://www.futureretail.co.in/legal.html" style="color:#122A4E;" target="_blank">Legal</a></div>
-                </div>
-                <div class="col-md-4">
-                  <div style="margin-top:10px; margin-bottom:10px;"><strong>Address:</strong> Future Retail Home Office, 9th Floor, Tower C, Park, L.B.S. Marg, Vikhroli (West), Mumbai 400083</div>
-                  <div><strong>Email:</strong> <a href="mailto:sharewithus@futuregroup.in" style="color:#122A4E;">sharewithus@futuregroup.in</a></div>
-                  <div>
-                    <div class="top-header-right-social">
-                      <ul class="rt" style="float: left; margin-left:-50px; list-style: none;">
-                        <li><a class="face" href="https://www.facebook.com/BigBazaar" target="_blank"><span> </span></a></li>
-                        <li><a class="twit" href="https://twitter.com/BigBazaar" target="_blank"><span> </span></a></li>
-                        <!--<li><a class="pin" href="https://www.youtube.com/channel/UCrk-0IWsWKtQbGZ4VnrTiBw" target="_blank"><span> </span></a></li>-->
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-
-
-
-              </div></div>
-          </div>
-
-        </div>
-
-
-      </div>
-    </div>
 
 
 
 
   </div>
+
+
+
+
 
 
   <div class="single-product page">
@@ -215,13 +170,40 @@
     <h3>Sorry, something went wrong.. :(</h3>
   </div>
 
-</div>
 
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.min.js"></script>
-<script src="assets/js/script.js"></script>
 
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.min.js"></script>
+  <script src="assets/js/script.js"></script>
+
+  <div class="footer"id="ftr">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-sm-4 col-lg-4"id="ft1"> <div style="margin-top:10px; margin-bottom:10px;"><strong>Big Bazaar</strong></div>
+          <div><a href="http://www.futureretail.co.in/about-us/overview-retail.html" target="_blank" style="color:#122A4E;">Our Story</a></div>
+          <div><a href="http://www.bigbazaar.com/sitemap.php" style="color:#122A4E;">Site Map</a></div>
+        </div>
+        <div class="col-md-4 col-sm-4 col-lg-4"id="ft2">
+          <div style="margin-top:10px; margin-bottom:10px;"><strong>Events</strong></div>
+          <div><a href="http://www.bigbazaar.com/student-travel-luggage/" style="color:#122A4E;">Student Travel Luggage</a></div>
+          <div style="padding-top:32px; padding-bottom:10px;">Copyright 2016 Future Group. All rights reserved</div>
+          <div><a href="http://www.futureretail.co.in/legal.html" style="color:#122A4E;display: none" target="_blank">Legal</a></div>
+        </div>
+
+        <div class="col-md-4 col-sm-4 col-lg-4" id="ft3">  <div style="margin-top:10px; margin-bottom:10px;"><strong>Locate Us</strong></div>
+          <div><a href="http://www.bigbazaar.com/store.php" style="color:#122A4E;">Store Locator</a></div>
+          <div><a href="http://www.bigbazaar.com/contact-us/" style="color:#122A4E;">Contact Us</a></div>
+        </div>
+
+
+
+
+
+      </div>
+
+    </div>
+  </div>
 
 </body>
 </html>

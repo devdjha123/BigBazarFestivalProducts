@@ -6,6 +6,9 @@
 body{
 
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+	background-image: url("../images/Background.jpg");
+
 }
 
 h1, h3{
@@ -66,6 +69,8 @@ header h2.tzine a{
 		font-size: 24px;
 		margin: 0;
 	}
+	input#search {
+		width: 100%;}
 
 }
 @media only screen and (min-width : 1200px) {
@@ -77,12 +82,11 @@ header h2.tzine a{
 	}
 	.products-list > li {
 
-		margin: 8px 76px 147px 4px;
 
 	}
 
 }
-@media only screen and (min-width : 1100px) {
+@media only screen and (max-width : 1100px) {
 	.banner {
 		width: 100% !important;
 	}
@@ -91,9 +95,40 @@ header h2.tzine a{
 	}
 	.products-list > li {
 
-		margin: 8px 76px 147px 4px;
+		margin: 100px 26px 19px 14px !important;
+		padding: 11px !important;
 
 	}
+
+
+}
+
+@media screen and (min-width:768px) and (max-width:991px)  {
+	input#submit {
+
+		left: 416px !important;
+	}
+	input#search {
+		width: 100%!important;
+	}
+
+}
+@media screen and (min-width:992px) and (max-width:1199px) {
+
+	input#search {
+		width: 100%;!important}
+
+}
+
+
+
+	@media only screen
+	and (min-device-width : 400px)
+	and (max-device-width : 768px) {
+		input#submit {
+
+			left: 476px !important;
+		}
 
 }
 /*-----------------
@@ -104,7 +139,7 @@ header h2.tzine a{
 .main-content{
 	box-sizing: border-box;
 	text-align: center;
-	margin: 0px auto 60px;
+	margin: 25px auto 60px;
 	padding: 0 40px;
 }
 
@@ -119,6 +154,10 @@ header h2.tzine a{
 	.main-content{
 		margin: 45px auto;
 		padding: 0 25px;
+	}
+	input#submit {
+
+		left: 352px !important;
 	}
 
 }
@@ -138,10 +177,10 @@ header h2.tzine a{
 	border: 1px solid #DBE3E7;
 	border-radius: 3px;
 	box-shadow: 1px 3px 1px rgba(0, 0, 0, 0.08);
-	position: fixed;
+	position: relative;
 	text-align: left;
 	color: #2B2E31;
-	top: 250px;
+
 	opacity: 0;
 	pointer-events: none;
 }
@@ -157,6 +196,7 @@ header h2.tzine a{
 	margin-bottom: 12px;
 	font-weight: bold;
 	margin-top: 20px;
+	color: #e96826;
 }
 
 .filters label{
@@ -171,7 +211,7 @@ header h2.tzine a{
 
 .filters button{
 	border-radius: 2px;
-	background-color:  #4BC34B;
+	background-color: #e96826;;
 	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12);
 	border: 0;
 	color: #ffffff;
@@ -197,6 +237,7 @@ header h2.tzine a{
 	max-width: 1500px;
 	text-align: center;
 	padding: 0;
+	margin-top:-378px;
 	opacity: 0;
 	font-size: 0;
 }
@@ -224,7 +265,7 @@ header h2.tzine a{
 	/*border:1px solid #dbe3e7;*/
 	border-radius: 3px;
 	box-shadow: 1px 3px 1px rgba(0, 0, 0, 0.08);
-	margin: 8px 77px 160px 100px;
+	margin: 8px -49px 81px 143px;
 
 	padding: 28px;
 
@@ -261,6 +302,7 @@ header h2.tzine a{
 	text-align:center;
 	/*max-width: 200px;*/
 	margin:0;
+
 }
 
 .products-list h2 a{
@@ -363,7 +405,7 @@ header h2.tzine a{
 }
 
 .overlay{
-	height: 20px;
+	height: 2px;
 	width: 100%;
 	position: fixed;
 	top: 0;
@@ -475,6 +517,7 @@ p#proddic {
 ul.rt {
 	display: block;
 	list-style-type: none;
+	padding-top: 10px;
 }
 ul .rt, li {
 	float: left;
@@ -495,14 +538,14 @@ body > div.main-content > div.container > hr {
 	margin-right: auto;
 	color: #e96826;
 	height: 2px;
-	background-color: #e96;
+
 	border-style: inset;
 	border-color: #e96826;
 	border-width: 1px;
 }
 
 body {
-	background: #eee;
+
 	font: 12px Lucida sans, Arial, Helvetica, sans-serif;
 	color: #333;
 	text-align: center;
@@ -614,4 +657,59 @@ a {
 
 .form-wrapper #submit::-moz-focus-inner {
 	border: 0;
+}
+input#search {
+	width: 67%;
+	height: 36px;
+	color: #f16522;
+	border: solid #f16522;
+	margin: 0 auto;
+	border-radius: 0px;
+	padding: 0px 9px 3px 19px;
+	margin-top: 12px;
+}
+input#submit {
+	top: 13px;
+	position: absolute;
+	width: 70px;
+	border: 1px solid #f16522;
+	height: 32px;
+	/* border-radius: 1px; */
+	text-transform: uppercase;
+	border-radius: 0 2px 2px 0;
+	background-color: #f16522;
+	color: #fff;
+	right: 159px;
+}
+
+img#logop {
+	padding-left: 66px;
+}
+
+
+div#header {
+	margin-top: 6px;
+}
+
+hr#pui {
+	height: 4px;
+	width: 178px;
+	background-color: #ea5e20;
+	/* color: #000; */
+}
+
+div#ft1 {
+	background-color: #f5f5f5;
+	margin-top: 100px;
+	padding-bottom: 79px;
+}
+div#ft2 {
+	background-color: #f5f5f5;
+	margin-top: 100px;
+	padding-bottom: 37px;
+}
+div#ft3 {
+	background-color: #f5f5f5;
+	margin-top: 100px;
+	padding-bottom: 79px;
 }
