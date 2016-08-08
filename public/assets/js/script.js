@@ -20,7 +20,7 @@ $(function () {
     //	Checkbox filtering
 
     var checkboxes = $('.all-products input[type=checkbox]');
-    var search = $('.col-md-2 input[type=submit]');
+    var search = $("#searchText input[type=submit]");
 
     checkboxes.click(function () {
 
